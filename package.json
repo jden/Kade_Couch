@@ -6,7 +6,7 @@
   "scripts": {
     "test": "make test"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/nmartin867/Kade_Couch"
   },
@@ -17,10 +17,12 @@
     "http",
     "nosql"
   ],
-  "dependencies" : {
-     "request" : "~2.0.0",
-     "mocha" : "*",
-     "expect.js" : "*"
+  "dependencies": {
+    "request": "~2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "expect.js": "*"
   },
   "author": "Nick Martin<nmartin867@gmail.com>",
   "license": "BSD"
