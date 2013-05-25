@@ -1,0 +1,1 @@
+Super simple nodejs module which wraps the couchdb http api.

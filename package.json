@@ -1,0 +1,27 @@
+{
+  "name": "Kade_Couch",
+  "version": "0.0.1",
+  "description": "Simple CouchDB HTTP API wrapper",
+  "main": ".lib/kade_couch.js",
+  "scripts": {
+    "test": "make test"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/nmartin867/couch-potatoe"
+  },
+  "bugs": "https://github.com/nmartin867/couch-potatoe/issues",
+  "keywords": [
+    "kade_couch",
+    "couchdb",
+    "http",
+    "nosql"
+  ],
+  "dependencies" : {
+     "request" : "~2.0.0",
+     "mocha" : "*",
+     "expect.js" : "*"
+  },
+  "author": "Nick Martin<nmartin867@gmail.com>",
+  "license": "BSD"
+}
